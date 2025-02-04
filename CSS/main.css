@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background: radial-gradient(rgb(0, 195, 255), rgb(0, 0, 124));
+    background: radial-gradient(rgb(0, 195, 255), rgb(0, 124, 124));
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
