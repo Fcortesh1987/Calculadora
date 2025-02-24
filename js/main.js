@@ -53,6 +53,7 @@ botones.forEach(boton => {
             let num = pantalla2.textContent.replace(/,/g, "");
             num += botonPulsado;
             if (num.charAt(num.length - 1) === '.') {
+                num = formateador.format(num) + ".";
                 pantalla2.textContent = num;
             } else {
                 pantalla2.textContent = formateador.format(num);
